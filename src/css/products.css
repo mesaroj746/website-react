@@ -1,0 +1,14 @@
+@keyframes example {
+  from { background-color: aqua; border-radius: 0; }
+  to { background-color: pink; border-radius: 20px; }  
+}
+.products-class { 
+  max-width: 1150px;
+  background-color: antiquewhite;
+  height: 40vh;
+  margin: auto; 
+  animation-name: example;
+  animation-duration: 2s;
+  animation-delay: 2s; 
+  animation-iteration-count: 5;
+}
